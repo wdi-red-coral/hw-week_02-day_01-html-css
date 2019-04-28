@@ -1,52 +1,164 @@
-/******************************************
-/* SETUP
-/*******************************************/
 
-/* Box Model */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/******************************************
-/* FONTS
-/*******************************************/
-
-/* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-
-body {
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+header{
+    background: url(../images/header_bg.jpg) no-repeat ;
+    
     background-size: cover;
-}
+    padding: 100px;
+    background-position: center;
+    height: 300px;
+    width:100%
+    
+  }
+  
+  h1{
+    font-family: Open Sans;
+  font-weight:  800;
+  font-size: 24px;
+  color: white;
+  margin-left: 40px;
+  top: 0 px
+  
+  }
+  h2{
+      font-family: Open Sans;
+      color: white;
+      font-weight: 400;
+      font-size : 24px;
+      text-align: center;
+      margin-right: 150px;
+  }
+  
+   .benefits > h2{
+    font-family: Open Sans;
+   font-weight: 400px;
+   font-size : 30px;
+   text-align: left;
+   color: #033048 ;
+   
+  }
+  
+  h3{
+    font-family: Open Sans;
+    font-weight: bold;
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-size : 14px;
+    margin-left: 550px;
+    width: 200px;
+  
+  
+  }
+  
+  .benefits{  
+  background-color: #ebebeb;
+  background-size: cover;
+  padding: 100px;
+    background-position: center;
+    height: 300px;
+    width:100%  
+  } 
+
+  .benefits>ul li {
+    font-family: Open Sans;
+     list-style-type: disc;
+     font-size : 13px;
+     
+     
+  }
+
+  p{
+    font-family: Open Sans;
+    margin: 20px;
+    font-size: 30px;
+    color: darkgray;
+  }
+
+  .qoute{
+    background: url(../images/testimonial_bg.jpg) no-repeat ;
+    background-size: cover;
+    padding: 100px;
+    background-position: center;
+    height: 300px;
+    width:100%
+    
+  }
+
+  blockquote{
+  
+    font-style: Italic;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-right: 170px;
+
+  }
+  h4{
+    font-family: Open Sans;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-right: 170px;
+
+  }
+
+  .signup{
+    background-color:#f9e42e;
+    background-size: cover;
+      background-position: center;
+      height: 60px;
+      width:100% ;
+      padding-top: 30px;
+      
+
+  }
+
+  .signup > h4 {
+    
+   background-color: #033048;
+   font-size: 12px;
+   color: white;
+   padding: 5px 5px 5px 5px;
+   width: 300px;
+   text-align: center;
+   margin-left: 570px;
+   background-position: center;
+   
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-header {
-
-}
+  }
 
 footer {
+    background-color: gray;
+    background-size: cover;
+      background-position: center;
+      height: 100px;
+      width:100% ;
+      padding: 60px;
+      
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+footer > h2 {
+    color :#f9e42e;
+    text-align: center;
 
 
 
+}
 
+footer > p{
+    color : white;
+    text-align: center;
+    font-size: 9px;
+    margin-right: 180px;
+
+
+
+}
+
+img{
+ box-align: center;
+
+}
