@@ -19,14 +19,18 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+html{
+    font-family: "Open Sans", Arial, sans-serif ;
+}
 
 body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+   /*
     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    */
     background-size: cover;
 }
 
@@ -34,19 +38,123 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+header{
+    background-image: url("../images/header_bg.jpg")   ;    
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
 
-header {
+header h1{
+    font-weight: bold ;
+    font-size: 24px;
+    padding: 25px;
+    color: white;
+}
+header h2{
+    font-weight: "Semibold";
+    text-align: center; 
+    font-size: 24px;
+    color: white;
+    padding: 40px 0 0  0 ;
+}
 
+main {
+    padding: 30px 0px 30px 40px;
+    background-color: #f0efef;
+}
+
+article{
+    background-image: url("../images/testimonial_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    max-width: none; 
+}
+
+section {
+    background-color: #f9e42e;
 }
 
 footer {
-
+    text-align: center;
+    background-color: #121212;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+button {
+    background-color: #f9e42e;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    padding:10px 25px;
+    margin: 20px 0px 20px 600px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#606161;
+}
 
+section button { 
+   background-color: #033048;
+   color:white ; 
+   font-size: 12px;
+   margin-left: 600px;
+}
 
+main h2{
+    color:#033048;
+    font-weight: "Semibold";
+    font-size: 20px;
+}
+
+main p,ul{
+    font-size: 13px;
+    color: #606161;
+    padding: 5px;
+}
+ul{
+    list-style-type: circle;
+}
+
+article p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color:white;
+}
+
+article .qoute{
+    font-size: 18px;
+    font-weight: "Semibold";
+    text-align: center;
+    color:white;
+}
+
+.relax{
+    font-weight: bold ;
+    font-size: 24px;
+    color:#f9e42e;
+    padding-top: 30px;
+}
+
+footer p{
+    font-size: 9px;
+    font-weight: "Semibold";
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer img{
+    padding: 10px 0px ; 
+}
 
