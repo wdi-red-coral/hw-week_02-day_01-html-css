@@ -21,13 +21,14 @@
 /*******************************************/
 
 
-body {
+body{
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    
     background-size: cover;
+    background-color: #f0efef;
 }
 
 
@@ -36,17 +37,76 @@ body {
 /*******************************************/
 
 header {
+    margin: 103px 55px;
+    padding: 90px 12px;
+	border: 0;
+	/*font-size: 100%;*/
+	font: inherit;
+	vertical-align: baseline;
+
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+
 
 }
 
+main{
+
+    background-color: #f0efef;
+    color:  #121212;
+    margin: 100px 50px;
+    padding: 90px 12px;
+	border: 0;
+}
+p{
+    color: 
+}
 footer {
 
+ background: url(../images/testimonial_bg.jpg) no-repeat center top;
+ margin: 150px 90px;
+    padding: 90px 12px;
+	border: 0;
 }
+a{
+    padding: 30px;
+    background-color:#033048 ;
+    color: #f0efef
+}
+.signup{
+    background-color: rgb(58, 58, 42);
+    color: #f0efef
+    margin-: 55px auto;
 
+}
+.gitit{
+    background-color:#f9e42e
+    margin: 10px 3px;
+    padding: 9px 12px;
+	border: 0;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.r{
+  font-style:bold;
+  font-size:  24px;
+  margin: 10px 20px;
+    padding: 90px 12px;
+	border: 0;
+}
 
-
-
+.pppp{
+   font-style: bold; 
+   font-size :24px;
+}
+#ooo{
+    background-color: #f9e42e
+}
+li{
+    font-size: 20px;
+    list-style;
+}
+p{
+    color: white;
+}
