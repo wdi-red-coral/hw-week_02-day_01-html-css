@@ -28,6 +28,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
+    padding: 24px;
 }
 
 
@@ -37,9 +38,95 @@ body {
 
 header {
 
+    color: white;
+    font-size: 24px;
+
+
 }
 
+ul{
+    color: #606161;
+    background-color: #f0efef;
+}
+
+.relax{
+    
+    font-weight: bolder;
+    font-size: 24px;
+   
+    
+    
+}
+
+.get{
+    font-size: 14px;
+    
+    
+    
+}
+
+.now{
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #f9e42e;
+
+}
+
+.ben{
+    color: #033048;
+font-family: Semibold;
+font-size: 20px;
+background-color: #f0efef;
+}
+
+.perfect{
+    font-weight: lighter;
+    font-size: 13px;
+    background-color: #f0efef;
+}
+
+.advice
+{
+    background-image: url(/images/testimonial_bg.jpg)
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: Italic;
+}
+
+.auth{
+
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.sign{
+    color: white;
+    background-color: #033048;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+}
 footer {
+    color: white;
+    background-color: #121212;
+    background-position: center;
+    font-weight: bold;
+    font-size: 9px;
+
+}
+
+#twitter {
+   
+
+} 
+
+#face{
 
 }
 
