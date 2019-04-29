@@ -23,10 +23,13 @@
 
 body {
     color: #000;
+    background-color: #121212;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+
 
 
 /******************************************
@@ -39,6 +42,117 @@ header {
 
 footer {
 
+}
+
+
+.rlax {
+	background: url("../images/header_bg.jpg")  center no-repeat;
+    margin-top: 0px;
+    width:900px;
+    height:550px;
+    margin-left: 500px;
+    
+    
+}
+.rlax h1 {
+    margin-left: 200px;
+    padding-top: 28px;
+    
+    font-size: 24px;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+.rlax p {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 90px;
+    color:whitesmoke;
+}
+
+.rlax input {
+    background-color: yellow;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 14px;
+  margin: 45px 350px;
+  cursor: pointer;
+}
+ .second {
+     background-color: #f0efef;
+     width:900px;
+    height:550px;
+    margin-left: 500px;
+    margin-bottom: 70px;
+ }
+
+ .second h2 {
+     color:#606161;
+     font-weight: lighter;
+     font-size: 30px;
+     margin-left: 50px;
+     padding-top:20px;  
+ }
+ 
+ .second p {
+    font-weight: lighter;
+    font-size: 23px;
+    text-align: left;
+    margin-left: 50px;
+    color:#606161;
+        
+}
+.second ul {
+    margin-left: 2rem;
+    padding-left: 70px;
+    font-size: 20px;
+    color: #606161;
+    display:list-item;
+}
+
+.final {
+   
+    width:900px;
+    height:550px;
+    margin-left: 500px;
+    background-image: url("../images/testimonial_bg.jpg");
+    color:#606161;
+    margin-top: -70px;
+}
+.final p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 35px;
+    text-align: center;
+}
+.final span {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.final input {
+    background-color: #033048;
+    color:#606161 ;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    width:20%;
+    text-align: center;
+    
+    font-size: 18px;
+}
+.final p {
+    padding-bottom: 40px;
+    padding-top: 25px;
 }
 
 /******************************************
