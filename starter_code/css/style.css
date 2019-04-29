@@ -14,11 +14,22 @@
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 /******************************************
 /* BASE STYLES
 /*******************************************/
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0;
+}
+h2{
+    font-weight: 400; 
+    font-size:24px;
+    margin: 0;
+    padding-top: 30px;
+}
 
 
 body {
@@ -26,8 +37,35 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    margin: 0px;
+   
+}
+.firstF{
+    background-color: #f9e42e;
+}
+.secondF{
+    background-color: #121212;
+}
+.headerR{
+    margin: 0px;
+    color: #f0efef;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+.footerR{
+    color: #f9e42e;
+    margin: 0px;
+    
+}
+button{
+    color: #121212;
+    background-color: #f9e42e;
+    margin: 30px;
+}
+.benefits{
+    background-color: #f0efef;
+    margin: 0px;
 }
 
 
@@ -36,11 +74,24 @@ body {
 /*******************************************/
 
 header {
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    width: 100%;
+    height: 510px;
+    margin: 0px;
+    text-align: center;
+
 
 }
 
 footer {
-
+    margin: 0px;
+}
+.experience{
+    background:url(../images/testimonial_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
 }
 
 /******************************************
