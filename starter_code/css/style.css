@@ -21,30 +21,83 @@
 /*******************************************/
 
 
-body {
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/******************************************
+/* Overriding All Styles
+/*******************************************/
 
+.header {
+    height: 700px;
+    background-image: url("../images/header_bg.jpg");
+}
+nav {
+    font-weight : 800;
+    font-size: 24px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.main-button {
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.benefits {
+    background-color: #f0efef;
+    font-weight: 600;
+    font-size: 20px;
+}
+.ben-intro {
+    font-weight: 300;
+    font-size: 13px;
+
+}
+.testimonial {
+    height: 394px;
+    color: #ffffff;
+    background-image: url("../images/testimonial_bg.jpg");
+    font-weight: 600;
+    font-size: 18px;
+
+}
+q {
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+}
+.sec-button {
+    background-color: #f9e42e;
+
+}
+#sec-button {
+    background-color:  #033048;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #121212;
+}
+#footer-1 {
+    color: #f9e42e;
+    font-weight: 800;
+    font-size: 24px;
+
+}
+#footer-2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 9px;
+
+}
 
 
