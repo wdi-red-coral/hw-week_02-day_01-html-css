@@ -1,0 +1,73 @@
+
+
+h1 
+{
+    color: white;
+   
+}
+
+p{
+    color: white;
+}
+
+.part1{
+    background-image: url("images/header_bg.jpg"); 
+
+padding: 250px;
+text-align: center;
+}
+
+.part2{
+    background: rgb(32, 9, 9);
+    padding: 150px;
+
+}
+
+.part3{
+   
+    background-image: url("images/testimonial_bg.jpg");
+    padding: 80px; 
+
+}
+
+.part4{
+   
+    background:palegreen; 
+    padding: 40px;
+    text-align: center;
+
+}
+
+.part5{
+   
+    background:dimgray; 
+    padding: 70px;
+    text-align: center;
+
+
+}
+
+.but1{
+    background: green;
+    padding: 15px;
+  text-align: center;
+}
+
+.but2{
+    background: indigo;
+    padding: 15px;
+}
+
+li{
+    color:gray	;
+   
+}
+
+.im1{
+margin: 15px;
+text-align: center;
+}
+.im1{
+    margin: 15px; 
+    text-align: center;
+}
