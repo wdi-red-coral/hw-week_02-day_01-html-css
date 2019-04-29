@@ -20,8 +20,8 @@
 /* BASE STYLES
 /*******************************************/
 
-
-body {
+/*
+ body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
@@ -29,14 +29,26 @@ body {
     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
 }
-
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 header {
-
+background-image: url(../images/header_bg.jpg);
+background-position: center top cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 500px;
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+padding: 150px;
+color: #fff;
 }
 
 footer {
@@ -47,6 +59,37 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1{
+    font-weight: 900;
+    text-align: left;
+    margin-left: 20px;
+}
 
+a{
+    font-weight: 900;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: #033048;
+    padding: 10px 10px;
+    background-color: #f9e42e;
+    margin-top: 100px;
+}
 
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #033048;
+}
 
+ul li {
+    font-size: 13px;
+    color:#606161;
+}
+ .hero{
+     background-color: #f0efef;
+ }
+
+ p{
+     color: #606161;
+     font-size: 13px;
+ }
