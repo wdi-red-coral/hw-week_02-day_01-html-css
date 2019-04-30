@@ -26,6 +26,8 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -34,13 +36,117 @@ body {
 /*******************************************/
 
 header {
+    background: url("../images/header_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: 98vh;
+}
+header h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    margin-top: 20px 
+}
+header div p {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 50%;
+    left: 30%
+}
+header button{
+    position: absolute;
+    bottom: 40%;
+    left: 35%;
+    width: 25%;
+    color: blue;
+    font-size: 37px;
+    background: gold;
+}
+main header{
+    background: url("../images/testimonial_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: 35vh
+
+}
+main div{
+    background: yellow;
+    width: 98vw;
+    height: 15vh
 
 }
 
+.one {
+    background: url("../images/relaxr_landing.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: 98vh;
+}
+main header p {
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    font-weight: lighter;
+    position: relative;
+    top: 25%;
+    left: 40%;
+}
+main header h1 {
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    font-weight: lighter;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    font-size: 30px
+}
+main div button {
+    color: white;
+    background: rebeccapurple;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    font-size: 30px;
+}
 footer {
 
+    background: black;
+    width: 98vw;
+    height: 35vh;
+    color: gold;
+    
+    
 }
 
+footer h1{
+    position: relative;
+    top: 5%;
+    left: 40%;
+    font-size: 50px;
+}
+ footer .oneo{
+    position: absolute;
+    left: 35vw;
+ }
+ footer .twoo{
+    position: absolute;
+    left: 50vw;
+ }
+
+ footer p{
+    position: relative;
+    left: 40vw;
+    top: 25%
+ }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
