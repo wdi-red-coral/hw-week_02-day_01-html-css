@@ -4,9 +4,9 @@
 
 /* Box Model */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
 }
 
 /******************************************
@@ -22,15 +22,13 @@
 
 
 body{
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
-
-    
-    background-size: cover;
-    background-color: #f0efef;
-
+   color: #000;
+   font-size: 12px;
+   line-height: 1.4;
+   font-family: Helvetica, Arial, sans-serif;
+   
+   background-size: cover;
+   background-color: #f0efef;
 }
 
 
@@ -39,76 +37,103 @@ body{
 /*******************************************/
 
 header {
-    margin: 103px 55px;
-    padding: 90px 12px;
-	border: 0;
-	/*font-size: 100%;*/
-	font: inherit;
-	vertical-align: baseline;
-
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   margin: 0px 0px;
+   padding: 9px 0px;
+   border: 0;
+   /*font-size: 100%;*/
+   font: inherit;
+   vertical-align: baseline;
+   
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
 
 
 }
 
 main{
 
-    background-color: #f0efef;
-    color:  #121212;
-    margin: 100px 50px;
-    padding: 90px 12px;
-	border: 0;
+   background-color: #f0efef;
+   color:  #121212;
+   margin: 24px 20px;
+   padding: 20px 12px;
+   border: 0;
 }
 p{
-    color: 
+   color: 
 }
 footer {
 
- background: url(../images/testimonial_bg.jpg) no-repeat center top;
- margin: 150px 90px;
-    padding: 90px 12px;
-	border: 0;
+background: url(../images/testimonial_bg.jpg) no-repeat center top;
+margin: 150px 90px;
+   padding: 90px 12px;
+   border: 0;
+   
 }
 a{
-    padding: 30px;
-    background-color:#033048 ;
-    color: #f0efef
+   padding: 30px;
+   background-color:#033048 ;
+   color: #f0efef
 }
 .signup{
-    background-color: rgb(58, 58, 42);
-    color: #f0efef
-    margin-: 55px auto;
+   background-color: rgb(58, 58, 42);
+   color: #f0efef;
+   margin: 55px auto;
 
 }
 .gitit{
-    background-color:#f9e42e
-    margin: 10px 3px;
-    padding: 9px 12px;
-	border: 0;
+   background-color:#f9e42e
+   margin: 10px 3px;
+   padding: 9px 12px;
+   border: 0;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 .r{
-  font-style:bold;
-  font-size:  24px;
-  margin: 10px 20px;
-    padding: 90px 12px;
-	border: 0;
+ font-style:bold;
+ font-size:  24px;
+ margin: 10px 20px;
+   padding: 90px 12px;
+   border: 0;
 }
 
 .pppp{
-   font-style: bold; 
-   font-size :24px;
+  font-style: bold; 
+  font-size :24px;
+  text-align: center;
 }
-#ooo{
-    background-color: #f9e42e
+.ooo{
+   background-color: #f9e42e;
+   height: 22px;
+   width: 44px;
+  
+}
+.ooo p{
+   text-align: center;
 }
 li{
-    font-size: 20px;
-    list-style;
+   font-size: 20px;
+   list-style;
 }
 p{
-    color: white;
+   color: white;
 }
+.ww{
+   color: white;
+   background-color: #000;
+   font-size: 15px;
+   height: ;
+}
+.twitter{
+   position: absolute; 
+   top: 185%; 
+   left: 47%; 
+   transform: translate(-50%, -50%); 
+}  
+
+.facebook{
+   position: absolute; 
+   top: 185%; 
+   left: 51%; 
+   transform: translate(-50%, -50%); 
+}  
