@@ -49,7 +49,7 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 ### Resources
 
 - Starter code can be found inside of the [starter_code](starter_code) folder for this assignment.
-- Relaxr's [design file](starter_code/design_file)
+- Relaxr's [design file](starter_code/design_file.txt)
 - [Box Model explanation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model)
 - [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 - [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
