@@ -7,6 +7,7 @@
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+    
 }
 
 /******************************************
@@ -26,6 +27,7 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -34,17 +36,112 @@ body {
 /*******************************************/
 
 header {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px;
+    background-size: 100% 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+   
 
 }
-
+header > h1{
+    font-size: 40px;  
+    padding: 0px 30px ;
+    text-align: left;
+    padding-bottom: 50px;
+    
+}
 footer {
-
+    
+    text-align: center;
+   
+    font-size: 32px;
+    position: relative;
+    color: #ffffff;
+    background-size: 100% 100%;
 }
+
+   
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+main{
+    color: #4f4e46;
+    padding-left: 30px;
+    display: table;
+    font-size: 18px;
+    background-color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom:  29px;
+    padding-bottom: 40px;
+}
+#h22{
+
+color:#4f4e46;
+ padding: 40px, 40px;
+ margin: 0px;
+font-size: 30px;
+
+}
+button{
+   color: #4f4e46;
+    border-radius: 4px;
+background-color: #fce803;
+ padding: 40px, 40px;
+ margin: 0px;
+font-size: 30px;
+text-align: center;
+display: inline-block;
 
 
+}
+#Ybutton{
+    border-radius: 4px;
+    color: floralwhite;
+    background-color: #fce803;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px, 20px ;
+    padding: 10px;
+    
+}
+.about{
+   
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+    font: 100;
+    color: antiquewhite;
+    text-align: center;
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
 
+}
+#Yrelaxr{
+    color: #fce803;
+    font-size: 40px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    
+   
+}
+
+.contact{
+
+    display: block;
+}
+
+#x{
+    position: relative; 
+    width: 100%; 
+}
 
